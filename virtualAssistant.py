@@ -30,7 +30,7 @@ class MyFrame(wx.Frame):
         engine.runAndWait()
         try:
             #wolframalpha
-            app_id = "8UHTA8-5QGXGEJ4AT"
+            app_id = "*****YOUR wolframalpha ID******"
             client = wa.Client(app_id)
             res = client.query(user_input)
             answer = next(res.results).text
